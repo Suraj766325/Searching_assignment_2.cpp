@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     vector<int>v={8,6,5,3,1,0};
-    int n=v.size(),l=0,r=n-1,mid,target=1;
+    int n=v.size(),l=0,r=n-1,mid,target=1,check;
     bool flag=false;
     while(l<=r)
     {
